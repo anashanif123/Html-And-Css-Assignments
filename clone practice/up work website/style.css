@@ -1,0 +1,121 @@
+@font-face {
+    font-family:babu nausa ;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+*{
+    font-family:babu nausa;
+    
+
+}
+
+
+a:link{
+  color: black;
+} 
+a:visited{
+    color: red;
+}
+
+
+#v{
+    border-style: none;
+    font-size: 20px;
+    word-spacing: 5px;
+    
+}
+
+.ri{
+    word-spacing: 30PX;
+}
+#size{
+    font-size: 40px;
+    color: rgb(55, 240, 55);
+    font-family: lemon;
+ 
+
+
+}
+#r{
+    font-size: 20px;
+    word-spacing: 200px;
+}
+#h{
+    margin-left:40px ;
+    border-radius: 100px;
+    padding: 5px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    
+}
+
+#g{
+    
+    border-width: 2px;
+    border-style: double;
+   border-radius: 100px;
+}
+#q{
+    font-size: x-large;
+    border-style: none;
+}
+
+#p{
+    text-indent: 10cqmin;
+}
+.o,.q,.g,.z,.k{
+    padding: 10px;
+    font-size: 25px;
+}
+.anas{
+    color:green;
+    font-size: 75px;
+    margin-left:40px ;
+    font-family: bitter;
+    
+}
+h3{
+    margin-top: -20px;
+    font-size:30px; 
+    margin-left:40px ;
+    color: grey;
+
+}
+button{
+    margin-left:40px ;
+    border-radius: 100px;
+    padding: 10px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    
+}
+.ok{
+    float: right;
+    margin-top: -450px ;
+   
+}
+h4{
+    
+   margin-bottom: 40px;
+    margin-left: 40px;
+    color: grey;
+
+}
+.moiz{
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+p{
+    margin-left: 45px;
+    margin-top: 40px;
+}
+.yoyo{
+    margin-left:10px;
+}

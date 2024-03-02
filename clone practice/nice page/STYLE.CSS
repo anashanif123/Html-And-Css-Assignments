@@ -1,0 +1,88 @@
+@font-face {
+    font-family:babu nausa ;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+#op{
+   position:fixed;
+   top: 0px;
+   left: -3px;
+
+}
+body{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #1d4350, #a43931);
+    text-align: center;
+}
+h1{
+    margin-top: 100px;
+    
+}
+.container{
+    flex-flow: row wrap; 
+    display: flex;
+    justify-content: center;
+    width:72.5%;
+    margin: auto;
+}
+ .fOX1{
+    background: linear-gradient(to right, #ba8b02, #181818); 
+    height:450px; 
+    width:310px;
+    box-shadow:2px 0px 30px #a43931 ;
+    }
+     
+.fOX2{
+    
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+    height:450px; 
+     width:310px;
+     box-shadow:2px 0px 30px #a43931  ;
+}
+.fOX3{
+  
+    background: linear-gradient(to right, #ad5389, #3c1053);
+    height:450px; 
+     width:310px;
+     box-shadow:2px 0px 30px  #1d4350;
+}
+
+.yo{
+    font-family:babu nausa;
+    font-size: 40px;
+    margin-top: 110px;
+}
+
+hr{
+    width: 200px;
+}
+
+button{
+    width: 50%;
+    margin-top:30px ;
+    font-size:medium;
+    padding: 10px;
+    border-radius:20px;
+    
+}
+.ho{
+
+    font-size: small;
+    padding: 50px;
+    margin: 30px 0px -10px -10px;
+    width: 91.6vw;
+    background-color:#333333;
+}
+a{
+    word-spacing: 4px;
+    color:rgb(142, 227, 241);
+}
+span{
+   
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: grey;
+}

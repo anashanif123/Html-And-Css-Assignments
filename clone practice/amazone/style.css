@@ -1,0 +1,416 @@
+
+
+body {
+   
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E3E6E6;
+
+}
+
+.navbar {
+    background-color: #232F3E;
+    height: 100px;
+}
+
+
+.content {
+    background-color: #131921;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.location {
+    border: none;
+    background-color: #131921;
+    color: white;
+    height: 45px;
+    width: 90px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.location:hover {
+    border: 2px solid white;
+}
+
+#all {
+    background-color: #D4D4D4;
+    border-radius: 8px 0px 0px 8px;
+    height: 40px;
+    margin-top: 10px;
+    color: #373937;
+}
+
+
+.searchbar {
+    width: 50vw;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.searchicon {
+    border-radius: 0px 8px 8px 0px;
+    background-color: #FEBD69;
+    height: 41px;
+    margin-top: 10px;
+
+}
+
+#language {
+    background-color: #131921;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+
+#accounts {
+    background-color: #131921;
+    color: white;
+    border: none;
+    margin-left: 20px;
+
+}
+
+.returns {
+    background-color: #131921;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+.returns:hover {
+    border: 2px solid white;
+}
+
+.cart {
+    background-color: #131921;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+.cart:hover {
+    border: 2px solid white;
+}
+
+.sections {
+    background-color: #232F3E;
+    padding: 10px;
+    border: none;
+    color: white;
+
+}
+
+.sections:hover {
+    border: 2px solid white;
+}
+
+.img {
+    background-image: url(./image/81KkrQWEHIL._SX3000_.jpg);
+    background-size: cover;
+    height: 600px;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    top: 35em;
+    gap: 20px;
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9 ,.img10,.img11,.img12,.img13{
+    background-color: white;
+    height: 100%;
+    width: 250px;
+    padding: 10px;
+    
+}
+.products2{
+    display: flex;
+    position: absolute;
+    top: 118em;
+    justify-content: center;
+    gap: 20px;
+    left: 100px;
+
+}
+.img9{
+    display: none;
+}
+.items{
+    position: absolute;
+    top: 80em;
+    left: 20px;
+    
+}
+.items2{
+    position: absolute;
+    top: 142em;
+    left: 20px;
+}
+.signinbox{
+    position: absolute;
+    top: 200em;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+}
+.signin{
+    border-color: #E6A400;
+    border-radius: 7px;
+    background-image: linear-gradient(#FFD875, #FFC940);
+    width: 300px;
+    padding: 3px;
+}
+.backtotop{
+    position: absolute;
+    top: 207em;
+    padding: 15px;
+    width: 96.5vw;
+    text-align: center;
+    background-color: #37475A;
+    color: white;
+    text-decoration: none;
+}
+.backtotop:hover{
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+@media screen and (max-width:1024px) {
+    .backtotop{
+        position: absolute;
+        top: 207.5em;
+        padding: 15px;
+        width: 97.1vw;
+        text-align: center;
+        background-color: #37475A;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .items2{
+        position: absolute;
+        top: 160em;
+        left: 20px;
+    }
+    
+    .products2{
+        display: flex;
+        position: absolute;
+        top: 135em;
+        justify-content: center;
+        gap: 20px;
+        left: 90px;
+    
+    }
+    .img13{
+        display: none;
+    }
+    
+    .products{
+        flex-wrap: wrap;  
+    }
+    .img9{
+        display: inline;
+    }
+    .items{
+        position: absolute;
+        top: 105em;
+        left: 20px;
+        
+    }
+    .imgbars{
+        height:13em ;
+        
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .backtotop{
+        position: absolute;
+        top: 180.5em;
+        padding: 15px;
+        width: 113.5vw;
+        text-align: center;
+        background-color: #37475A;
+        color: white;
+        text-decoration: none;
+    }
+    .signinbox{
+        position: absolute;
+        top: 173em;
+        width: 117.3vw;
+        text-align: center;
+        background-color: white;
+    }
+
+    .items2{
+        position: absolute;
+        top: 132em;
+        left: 20px;
+    }
+
+    .products2{
+        display: flex;
+        position: absolute;
+        top: 113em;
+        justify-content: center;
+        gap: 20px;
+        left: 90px;
+    
+    }
+    
+    .imgbars{
+        height:11.5em ;
+        
+    }
+    .items{
+        position: absolute;
+        top: 85em;
+        left: 20px;
+        
+    }
+
+
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 55em;
+    }
+    
+
+    
+    .navbar {
+        width: 900px;
+    }
+
+    .content {
+        width: 900px;
+    }
+
+    .carttext {
+        display: none;
+    }
+
+    .cart {
+        font-size: 30px;
+    }
+
+    .img {
+        background-image: url(./image/81KkrQWEHIL._SX3000_.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 900px;
+    }
+    .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13 {
+        background-color: white;
+        height: 100%;
+        width: 200px;
+        padding: 10px;
+
+        
+    }
+    .widgets{
+        height: 200px;
+        width: 180px;
+    }
+}
+
+
+
+
+@media screen and (max-width:425px) {
+    .backtotop{
+        position: absolute;
+        top: 180.2em;
+        padding: 15px;
+        width: 204.2vw;
+        text-align: center;
+        background-color: #37475A;
+        color: white;
+        text-decoration: none;
+    }
+    .signinbox{
+        position: absolute;
+        top: 173em;
+        width: 210vw;
+        text-align: center;
+        background-color: white;
+    }
+    .navbar {
+        width: 900px;
+    }
+
+    .content {
+        width: 900px;
+    }
+
+    .carttext {
+        display: none;
+    }
+
+    .cart {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .backtotop{
+        width: 231.5vw;
+    }
+    .signinbox{
+        position: absolute;
+        top: 173em;
+        width: 240vw;
+        text-align: center;
+        background-color: white;
+    }
+    .navbar {
+        width: 900px;
+    }
+
+    .content {
+        width: 900px;
+    }
+
+    .carttext {
+        display: none;
+    }
+
+    .cart {
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .backtotop{
+        width: 272vw;
+    }
+    .signinbox{
+        position: absolute;
+        top: 173em;
+        width: 280vw;
+        text-align: center;
+        background-color:white;
+}
+}

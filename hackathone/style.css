@@ -1,0 +1,38 @@
+.left{
+    margin-left:200px ;
+}
+.ima{
+    background-image: url(./images/banner_bg.png);
+    height: 80vh;
+    background-repeat:no-repeat;
+
+}
+h1{
+    
+    position: relative;
+    top: 30px;
+    
+}
+
+
+
+.center{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.right{
+    position: relative;
+    top: -30px;
+    left: 70%;
+}
+.colo{
+    border-radius: 10px;
+    background-color:rgb(77, 75, 75);
+    color: white;
+}
+.bo{
+    margin-top: -20px;
+}
+03033111499 shahzed
